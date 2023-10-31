@@ -1,0 +1,28 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow:
+        0 1.3rem 3.2rem rgba(0, 0, 0, 0.32),
+        0 1rem 0.8rem rgba(0, 0, 0, 0.1),
+        0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    transition: transform 300ms ease;
+    cursor: pointer;
+}
+
+.root:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+}

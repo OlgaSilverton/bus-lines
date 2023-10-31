@@ -1,0 +1,39 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.closeButton {
+    margin-left: auto;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: grey;
+    transition:
+        background-color 300ms ease,
+        color 300ms ease;
+    font-size: 1.4rem;
+}
+
+.closeButton:hover {
+    background-color: rgb(204, 204, 204);
+    color: black;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}

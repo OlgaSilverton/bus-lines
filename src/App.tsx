@@ -1,26 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/* Would be nice to add import aliases like '@screens/...' to not be dependent on the directory structure to move things around easier later on.
+I couldn't make it work out of the box and decided to not spend time on the debugging */
+import OverviewScreen from './screens/OverviewScreen/OverviewScreen';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    /* Router goes here */
+    return <OverviewScreen />;
 }
 
 export default App;
